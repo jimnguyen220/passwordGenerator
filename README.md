@@ -23,14 +23,22 @@ Link to deployed website: https://jimnguyen220.github.io/passwordGenerator/
 
 Link to github repository: https://github.com/jimnguyen220/passwordGenerator
 
+--------
+special thanks to bootcamp tutor - Michell Brito
+
+
+
 
 
 
 Pseudocode: 
+* Create list of arrays for each variable of lower case, upper case, numbers and special Characters
 
  * "When I click the button to generate a password --> prompts a series of password criteria"
  
     * addEventListener is already prefilled in to start  writePassword function when button is clicked
 
-    * Within writePassword function, create prompts for password criteria - generatePassword function is embedded in this function
+* Within writePassword function, create prompts for password criteria - generatePassword function is embedded in this function
+
+
  
