@@ -28,10 +28,8 @@ special thanks to bootcamp tutor - Michell Brito
 
 
 
+Description of steps and walkthrough of javascript code:
 
-
-
-Pseudocode: 
 * Create list of arrays for each variable of lower case, upper case, numbers and special Characters
 
  * "When I click the button to generate a password --> prompts a series of password criteria"
@@ -43,7 +41,7 @@ Pseudocode:
 * Create code for generatePassword
    * prompt user to select how many characters they would like to use, between 8 and 128.  If outside of those parameters, will get an alert telling them to select between 8 and 128 characters.
 
-   * next series of questions will define if user selects to use lower case, upper case, numbers or special characters and push the array the user would like to include into a new variable defined as userCharacters.
+   * next series of questions will define if user selects to use lower case, upper case, numbers or special characters and push the array the user would like to include into a new variable defined as userCharacters.  If user selects 'cancel' then that criteria will not be used in generated password.
 
    * wrote function to randomize selection within array and add result to randomPassword array.
 
