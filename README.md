@@ -40,5 +40,14 @@ Pseudocode:
 
 * Within writePassword function, create prompts for password criteria - generatePassword function is embedded in this function
 
+* Create code for generatePassword
+   * prompt user to select how many characters they would like to use, between 8 and 128.  If outside of those parameters, will get an alert telling them to select between 8 and 128 characters.
 
+   * next series of questions will define if user selects to use lower case, upper case, numbers or special characters and push the array the user would like to include into a new variable defined as userCharacters.
+
+   * wrote function to randomize selection within array and add result to randomPassword array.
+
+   * return result of randomPassword as a result of generatePassword. 
+
+   * writePassword function takes result of generatePassword and displays it within display area of index.html
  

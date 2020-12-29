@@ -18,7 +18,7 @@ var randomPassword = "";
 function generatePassword () {
     var numberOfCharacters = prompt("Please choose a number between 8 and 128. This number represents the length of your newly generated password.");
 
-    if (numberOfCharacters > 8 && numberOfCharacters < 128) {
+    if (numberOfCharacters > 7 && numberOfCharacters < 129) {
       var useLowerCase = confirm("Do you want to include lower case?")
       var useUpperCase = confirm("Do you want to include upper case?")
       var useNumber = confirm("Do you want to include numbers?")
@@ -41,7 +41,7 @@ function generatePassword () {
         userCharacters.push(...specialCharacter);
       }
 
-      for (var i = 0; i < numberOfCharacters - 1; i++) {
+      for (var i = 0; i < numberOfCharacters; i++) {
        var randomIndex = Math.floor(Math.random() * userCharacters.length); 
        
        randomPassword = randomPassword + userCharacters[randomIndex];
