@@ -23,6 +23,14 @@ Link to deployed website: https://jimnguyen220.github.io/passwordGenerator/
 
 Link to github repository: https://github.com/jimnguyen220/passwordGenerator
 
-To start this project, I think it will help to break each step down and pseudocode - 
- "When I click the button to generate a password --> prompts a series of password criteria"
-    -Add 'onClick' code to HTML
+
+
+
+Pseudocode: 
+
+ * "When I click the button to generate a password --> prompts a series of password criteria"
+ 
+    * addEventListener is already prefilled in to start  writePassword function when button is clicked
+
+    * Within writePassword function, create prompts for password criteria - generatePassword function is embedded in this function
+ 
